@@ -9,3 +9,5 @@ MANIFEST
 .pydevproject
 .settings
 .coverage
+.buildinfo
+objects.inv
