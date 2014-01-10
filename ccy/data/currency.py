@@ -77,6 +77,9 @@ def make_ccys(db):
     insert('VND', '704', 'VD', 1700000,
            'Vietnamese Dong', 0,  'VN', 'ACT/365', 'ACT/365',
            symbol=r'\u20ab', html='&#x20ab;')
+    insert('MMK', '104', 'MM', 300,
+           'Burmese Kyat', 0, 'MM', 'ACT/ACT', 'ACT/ACT',
+           symbol="K")
 
     #LATIN AMERICA
     insert('BRL', '986', 'BC', 200,
@@ -111,6 +114,9 @@ def make_ccys(db):
            symbol=dollar, html='&#x24;')
 
     #EASTERN EUROPE
+    insert('BYR', '974', 'BR', 26, 
+           'Belarusian Ruble', dfr, 'BY', 'ACT/ACT', 'ACT/ACT',
+           symbol=r'Br')
     insert('CZK', '203', 'CK', 28,
            'Czech Koruna', dfr, 'CZ', 'ACT/360', 'ACT/360',
            symbol=r'\u004b\u010d')
